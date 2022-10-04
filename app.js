@@ -18,7 +18,6 @@ const start = async () => {
     db.connect(err => {
         if (err) console.log(err)
         else console.log("connected")
-
     })
     const server = app.listen(port, () => console.log('success'))
 }
